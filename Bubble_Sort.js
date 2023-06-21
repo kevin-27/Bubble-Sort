@@ -11,8 +11,8 @@ let comparCounter = 0;
 function setup() 
 {
   //Center the canvas
-  let W = 1080;
-  let H = 720;
+  let W = windowWidth; //1080;
+  let H = windowHeight; //720;
   let centerW = windowWidth/2-W/2;
   let centerH = windowHeight/2-H/2;
   
